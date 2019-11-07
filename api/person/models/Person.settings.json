@@ -19,7 +19,7 @@
       "type": "string"
     },
     "type": {
-      "type": "string"
+      "type": "array"
     },
     "shortDescription": {
       "type": "string"
@@ -37,7 +37,7 @@
       "type": "string"
     },
     "awards": {
-      "type": "string"
+      "type": "array"
     }
   }
 }
