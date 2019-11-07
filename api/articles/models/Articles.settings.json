@@ -22,7 +22,7 @@
       "type": "string"
     },
     "typeArticle": {
-      "type": "string"
+      "type": "array"
     },
     "shortDescription": {
       "type": "text"
@@ -31,16 +31,16 @@
       "type": "string"
     },
     "longDescription": {
-      "type": "text"
+      "type": "array"
     },
     "slider": {
-      "type": "string"
+      "type": "array"
     },
     "quote": {
-      "type": "string"
+      "type": "array"
     },
     "additionalLongDescription": {
-      "type": "string"
+      "type": "array"
     }
   }
 }
