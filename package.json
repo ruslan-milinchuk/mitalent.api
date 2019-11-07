@@ -7,37 +7,25 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "lint": "eslint ."
+    "strapi": "strapi"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.0",
-    "eslint": "^6.3.0",
-    "eslint-config-airbnb": "^18.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-react": "^7.14.0"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "lodash": "^4.17.5",
-    "strapi": "3.0.0-beta.16.7",
-    "strapi-admin": "3.0.0-beta.16.7",
-    "strapi-utils": "3.0.0-beta.16.7",
-    "strapi-plugin-settings-manager": "3.0.0-beta.16.7",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.16.7",
-    "strapi-plugin-content-manager": "3.0.0-beta.16.7",
-    "strapi-plugin-users-permissions": "3.0.0-beta.16.7",
-    "strapi-plugin-email": "3.0.0-beta.16.7",
-    "strapi-plugin-upload": "3.0.0-beta.16.7",
-    "strapi-hook-bookshelf": "3.0.0-beta.16.7",
-    "strapi-hook-knex": "3.0.0-beta.16.7",
-    "knex": "latest",
-    "sqlite3": "latest"
+    "strapi": "3.0.0-beta.17.5",
+    "strapi-admin": "3.0.0-beta.17.5",
+    "strapi-utils": "3.0.0-beta.17.5",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.17.5",
+    "strapi-plugin-content-manager": "3.0.0-beta.17.5",
+    "strapi-plugin-users-permissions": "3.0.0-beta.17.5",
+    "strapi-plugin-email": "3.0.0-beta.17.5",
+    "strapi-plugin-upload": "3.0.0-beta.17.5",
+    "strapi-hook-mongoose": "3.0.0-beta.17.5"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "47f272c2-360f-4cd8-89ca-19705df2b129"
+    "uuid": "a68d17d1-ff53-4809-bcce-128d760ce6e1"
   },
   "engines": {
     "node": ">=10.0.0",
