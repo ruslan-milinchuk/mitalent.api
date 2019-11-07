@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "person",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "uuid": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "mainDescription": {
+      "type": "text"
+    },
+    "mainPhoto": {
+      "type": "string"
+    },
+    "profilePhoto": {
+      "type": "string"
+    },
+    "pressPhoto": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "string"
+    }
+  }
+}
