@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "person",
   "info": {
     "name": "person",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "uuid": {
@@ -38,6 +41,15 @@
     },
     "awards": {
       "type": "array"
+    },
+    "articles": {
+      "group": "article_short",
+      "repeatable": true,
+      "type": "group"
+    },
+    "contacts": {
+      "group": "contacts",
+      "type": "group"
     }
   }
 }
