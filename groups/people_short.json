@@ -1,18 +1,18 @@
 {
   "info": {
-    "name": "articleShort",
+    "name": "peopleShort",
     "description": ""
   },
   "connection": "default",
-  "collectionName": "groups_article_shorts",
+  "collectionName": "groups_people_shorts",
   "attributes": {
-    "uuid": {
+    "profileId": {
       "type": "string"
     },
-    "shortDescription": {
+    "firstName": {
       "type": "string"
     },
-    "date": {
+    "lastName": {
       "type": "string"
     },
     "img": {

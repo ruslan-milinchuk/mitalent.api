@@ -41,6 +41,10 @@
     },
     "additionalLongDescription": {
       "type": "array"
+    },
+    "person": {
+      "group": "people_short",
+      "type": "group"
     }
   }
 }
